@@ -17,9 +17,22 @@ Used throughout the [Curated Problem List](#curated-problem-list-by-pattern) bel
 | 🟡 **Medium** | Typical interview bar, requires combining 1-2 ideas |
 | 🔴 **Hard** | Multiple techniques, tricky edge cases, or non-obvious optimization |
 
+## Summary
+
+| Metric | Count |
+|---|---|
+| Patterns covered | 20 |
+| Total curated problems | 198 |
+| LeetCode problems | 130 |
+| HackerRank problems | 68 |
+| 🟢 Easy | 50 |
+| 🟡 Medium | 125 |
+| 🔴 Hard | 23 |
+
 ## Table of Contents
 
 - [Difficulty Legend](#difficulty-legend)
+- [Summary](#summary)
 - [Big-O Quick Reference](#big-o-quick-reference)
 - [Data Structure Complexity Cheat Sheet](#data-structure-complexity-cheat-sheet)
 - [Patterns](#patterns)

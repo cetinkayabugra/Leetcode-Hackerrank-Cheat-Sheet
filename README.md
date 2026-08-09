@@ -542,28 +542,285 @@ Sum of Two Integers (no + operator), Subsets via bitmask.
 
 ## Curated Problem List by Pattern
 
-| Pattern | LeetCode | HackerRank |
+Difficulty follows each platform's own rating (LeetCode: Easy/Medium/Hard, HackerRank: Easy/Medium/Hard).
+
+### Two Pointers
+| Problem | Platform | Difficulty |
 |---|---|---|
-| Two Pointers | Two Sum II, 3Sum, 4Sum, Container With Most Water, Trapping Rain Water, Sort Colors, Remove Duplicates from Sorted Array, Valid Palindrome | Sherlock and Array, Pairs, Sock Merchant, ANAGRAM |
-| Sliding Window | Longest Substring Without Repeating Characters, Minimum Window Substring, Longest Repeating Character Replacement, Permutation in String, Sliding Window Maximum, Fruit Into Baskets | Substring Diff, Max Subarray Sum, Highest Value Palindrome, Maximum Subarray Sum Circular |
-| Fast & Slow Pointers | Linked List Cycle, Linked List Cycle II, Middle of the Linked List, Happy Number, Find the Duplicate Number, Palindrome Linked List | Cycle Detection, Print in Reverse |
-| Binary Search | Search in Rotated Sorted Array, Koko Eating Bananas, Find Minimum in Rotated Sorted Array, Median of Two Sorted Arrays, Search a 2D Matrix, Split Array Largest Sum, Capacity To Ship Packages | Ice Cream Parlor, Missing Numbers, Pairs, Climbing the Leaderboard |
-| Prefix Sum | Subarray Sum Equals K, Product of Array Except Self, Range Sum Query - Immutable, Continuous Subarray Sum, Maximum Size Subarray Sum Equals k | Cumulative Array Sum, Sales by Match, Circular Array Rotation |
-| Hashing | Two Sum, Group Anagrams, Top K Frequent Elements, Longest Consecutive Sequence, Valid Anagram, Subarray Sum Equals K, Contains Duplicate II | Two Strings, Frequency Queries, Sherlock and Anagrams, Ransom Note |
-| Stack / Monotonic Stack | Valid Parentheses, Daily Temperatures, Largest Rectangle in Histogram, Min Stack, Next Greater Element I/II, Evaluate Reverse Polish Notation, Basic Calculator | Balanced Brackets, Equal Stacks, Maximum Element, Game of Two Stacks |
-| Linked List | Reverse Linked List, Reverse Linked List II, Reverse Nodes in k-Group, Merge Two Sorted Lists, Add Two Numbers, Copy List with Random Pointer, LRU Cache | Reverse a Linked List, Insert a Node, Merge Two Sorted Linked Lists, Delete Duplicate-Value Nodes |
-| Trees DFS/BFS | Level Order Traversal, Diameter of Binary Tree, Maximum Depth of Binary Tree, Path Sum II, Binary Tree Right Side View, Lowest Common Ancestor, Serialize/Deserialize Binary Tree | Tree: Height, Level-Order Traversal, Tree: Top View, Balanced Forest |
-| BST | Validate BST, Kth Smallest in BST, Insert into a BST, Delete Node in a BST, Convert Sorted Array to BST, Recover Binary Search Tree | Binary Search Tree Insertion, Tree: Huffman Decoding, Self Balancing Tree |
-| Graphs | Number of Islands, Course Schedule, Word Ladder, Clone Graph, Rotting Oranges, Pacific Atlantic Water Flow, Number of Connected Components | BFS: Shortest Reach, Roads and Libraries, Dijkstra: Shortest Reach 2, Even Tree |
-| Topological Sort | Course Schedule II, Alien Dictionary, Sequence Reconstruction, Minimum Height Trees, Parallel Courses | Topological Sort variants, Job Sequencing |
-| Union-Find | Number of Provinces, Redundant Connection, Accounts Merge, Number of Islands II, Graph Valid Tree, Satisfiability of Equality Equations | Merging Communities, Journey to the Moon, Components in a graph |
-| Heap | Kth Largest Element, Merge K Sorted Lists, Task Scheduler, Find Median from Data Stream, Top K Frequent Elements, K Closest Points to Origin | Find the Running Median, Jesse and Cookies, QHEAP1, Almost Sorted |
-| Backtracking | Subsets, Permutations, N-Queens, Word Search, Combination Sum, Palindrome Partitioning, Sudoku Solver, Generate Parentheses | Crossword Puzzle, Recursive Digit Sum, The Power Sum, Sansa and XOR |
-| Dynamic Programming | Coin Change, Longest Increasing Subsequence, Edit Distance, 0/1 Knapsack, Climbing Stairs, House Robber, Word Break, Unique Paths, Longest Palindromic Substring, Partition Equal Subset Sum | The Coin Change Problem, Sam's Puzzle, Max Array Sum, Candies, Fibonacci Modified |
-| Greedy | Jump Game, Jump Game II, Gas Station, Non-overlapping Intervals, Minimum Number of Arrows to Burst Balloons, Best Time to Buy and Sell Stock II | Greedy Florist, Luck Balance, Minimum Absolute Difference in an Array, Priyanka and Toys |
-| Intervals | Merge Intervals, Insert Interval, Meeting Rooms II, Non-overlapping Intervals, My Calendar I | Crush (interval update variant) |
-| Trie | Implement Trie, Word Search II, Design Add and Search Words, Replace Words, Longest Word in Dictionary | Contacts, No Prefix Set |
-| Bit Manipulation | Single Number, Counting Bits, Sum of Two Integers, Number of 1 Bits, Power of Two, Missing Number, Reverse Bits | Lonely Integer, Flipping Bits, Maximum XOR of Two Numbers in an Array, AND Product |
+| Two Sum II | LeetCode | Medium |
+| 3Sum | LeetCode | Medium |
+| 4Sum | LeetCode | Medium |
+| Container With Most Water | LeetCode | Medium |
+| Trapping Rain Water | LeetCode | Hard |
+| Sort Colors | LeetCode | Medium |
+| Remove Duplicates from Sorted Array | LeetCode | Easy |
+| Valid Palindrome | LeetCode | Easy |
+| Sherlock and Array | HackerRank | Easy |
+| Pairs | HackerRank | Medium |
+| Sock Merchant | HackerRank | Easy |
+| ANAGRAM | HackerRank | Medium |
+
+### Sliding Window
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Longest Substring Without Repeating Characters | LeetCode | Medium |
+| Minimum Window Substring | LeetCode | Hard |
+| Longest Repeating Character Replacement | LeetCode | Medium |
+| Permutation in String | LeetCode | Medium |
+| Sliding Window Maximum | LeetCode | Hard |
+| Fruit Into Baskets | LeetCode | Medium |
+| Substring Diff | HackerRank | Medium |
+| Max Subarray Sum | HackerRank | Medium |
+| Highest Value Palindrome | HackerRank | Medium |
+| Maximum Subarray Sum (Circular) | HackerRank | Hard |
+
+### Fast & Slow Pointers
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Linked List Cycle | LeetCode | Easy |
+| Linked List Cycle II | LeetCode | Medium |
+| Middle of the Linked List | LeetCode | Easy |
+| Happy Number | LeetCode | Easy |
+| Find the Duplicate Number | LeetCode | Medium |
+| Palindrome Linked List | LeetCode | Easy |
+| Cycle Detection | HackerRank | Easy |
+| Print in Reverse | HackerRank | Easy |
+
+### Binary Search
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Search in Rotated Sorted Array | LeetCode | Medium |
+| Koko Eating Bananas | LeetCode | Medium |
+| Find Minimum in Rotated Sorted Array | LeetCode | Medium |
+| Median of Two Sorted Arrays | LeetCode | Hard |
+| Search a 2D Matrix | LeetCode | Medium |
+| Split Array Largest Sum | LeetCode | Hard |
+| Capacity To Ship Packages Within D Days | LeetCode | Medium |
+| Ice Cream Parlor | HackerRank | Medium |
+| Missing Numbers | HackerRank | Easy |
+| Climbing the Leaderboard | HackerRank | Medium |
+
+### Prefix Sum
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Subarray Sum Equals K | LeetCode | Medium |
+| Product of Array Except Self | LeetCode | Medium |
+| Range Sum Query - Immutable | LeetCode | Easy |
+| Continuous Subarray Sum | LeetCode | Medium |
+| Maximum Size Subarray Sum Equals k | LeetCode | Medium |
+| Sales by Match | HackerRank | Easy |
+| Circular Array Rotation | HackerRank | Easy |
+| Crush | HackerRank | Medium |
+
+### Hashing / Hash Map
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Two Sum | LeetCode | Easy |
+| Group Anagrams | LeetCode | Medium |
+| Top K Frequent Elements | LeetCode | Medium |
+| Longest Consecutive Sequence | LeetCode | Medium |
+| Valid Anagram | LeetCode | Easy |
+| Contains Duplicate II | LeetCode | Easy |
+| Two Strings | HackerRank | Easy |
+| Frequency Queries | HackerRank | Medium |
+| Sherlock and Anagrams | HackerRank | Medium |
+| Ransom Note | HackerRank | Easy |
+
+### Stack / Monotonic Stack
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Valid Parentheses | LeetCode | Easy |
+| Daily Temperatures | LeetCode | Medium |
+| Largest Rectangle in Histogram | LeetCode | Hard |
+| Min Stack | LeetCode | Medium |
+| Next Greater Element I | LeetCode | Easy |
+| Next Greater Element II | LeetCode | Medium |
+| Evaluate Reverse Polish Notation | LeetCode | Medium |
+| Basic Calculator | LeetCode | Hard |
+| Balanced Brackets | HackerRank | Medium |
+| Equal Stacks | HackerRank | Easy |
+| Maximum Element | HackerRank | Medium |
+| Game of Two Stacks | HackerRank | Medium |
+
+### Linked List In-Place Reversal
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Reverse Linked List | LeetCode | Easy |
+| Reverse Linked List II | LeetCode | Medium |
+| Reverse Nodes in k-Group | LeetCode | Hard |
+| Merge Two Sorted Lists | LeetCode | Easy |
+| Add Two Numbers | LeetCode | Medium |
+| Copy List with Random Pointer | LeetCode | Medium |
+| LRU Cache | LeetCode | Medium |
+| Reverse a Linked List | HackerRank | Easy |
+| Insert a Node at a Specific Position | HackerRank | Easy |
+| Merge Two Sorted Linked Lists | HackerRank | Easy |
+| Delete Duplicate-Value Nodes from a Sorted Linked List | HackerRank | Easy |
+
+### Trees: DFS / BFS
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Binary Tree Level Order Traversal | LeetCode | Medium |
+| Diameter of Binary Tree | LeetCode | Easy |
+| Maximum Depth of Binary Tree | LeetCode | Easy |
+| Path Sum II | LeetCode | Medium |
+| Binary Tree Right Side View | LeetCode | Medium |
+| Lowest Common Ancestor of a Binary Tree | LeetCode | Medium |
+| Serialize and Deserialize Binary Tree | LeetCode | Hard |
+| Tree: Height of a Binary Tree | HackerRank | Easy |
+| Tree: Level Order Traversal | HackerRank | Easy |
+| Tree: Top View | HackerRank | Medium |
+| Balanced Forest | HackerRank | Hard |
+
+### Binary Search Tree
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Validate Binary Search Tree | LeetCode | Medium |
+| Kth Smallest Element in a BST | LeetCode | Medium |
+| Insert into a Binary Search Tree | LeetCode | Medium |
+| Delete Node in a BST | LeetCode | Medium |
+| Convert Sorted Array to Binary Search Tree | LeetCode | Easy |
+| Recover Binary Search Tree | LeetCode | Medium |
+| Binary Search Tree: Insertion | HackerRank | Easy |
+| Tree: Huffman Decoding | HackerRank | Medium |
+| Self Balancing Tree | HackerRank | Hard |
+
+### Graphs: BFS / DFS
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Number of Islands | LeetCode | Medium |
+| Course Schedule | LeetCode | Medium |
+| Word Ladder | LeetCode | Hard |
+| Clone Graph | LeetCode | Medium |
+| Rotting Oranges | LeetCode | Medium |
+| Pacific Atlantic Water Flow | LeetCode | Medium |
+| Number of Connected Components in an Undirected Graph | LeetCode | Medium |
+| BFS: Shortest Reach in a Graph | HackerRank | Medium |
+| Roads and Libraries | HackerRank | Medium |
+| Dijkstra: Shortest Reach 2 | HackerRank | Medium |
+| Even Tree | HackerRank | Medium |
+
+### Topological Sort
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Course Schedule II | LeetCode | Medium |
+| Alien Dictionary | LeetCode | Hard |
+| Sequence Reconstruction | LeetCode | Medium |
+| Minimum Height Trees | LeetCode | Medium |
+| Parallel Courses | LeetCode | Medium |
+| Topological Sort (Practice) | HackerRank | Medium |
+| Job Sequencing Problem | HackerRank | Medium |
+
+### Union-Find (Disjoint Set)
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Number of Provinces | LeetCode | Medium |
+| Redundant Connection | LeetCode | Medium |
+| Accounts Merge | LeetCode | Medium |
+| Number of Islands II | LeetCode | Hard |
+| Graph Valid Tree | LeetCode | Medium |
+| Satisfiability of Equality Equations | LeetCode | Medium |
+| Merging Communities | HackerRank | Medium |
+| Journey to the Moon | HackerRank | Medium |
+| Components in a Graph | HackerRank | Easy |
+
+### Heap / Priority Queue
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Kth Largest Element in an Array | LeetCode | Medium |
+| Merge K Sorted Lists | LeetCode | Hard |
+| Task Scheduler | LeetCode | Medium |
+| Find Median from Data Stream | LeetCode | Hard |
+| Top K Frequent Elements | LeetCode | Medium |
+| K Closest Points to Origin | LeetCode | Medium |
+| Find the Running Median | HackerRank | Hard |
+| Jesse and Cookies | HackerRank | Medium |
+| QHEAP1 | HackerRank | Easy |
+| Almost Sorted | HackerRank | Medium |
+
+### Backtracking
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Subsets | LeetCode | Medium |
+| Permutations | LeetCode | Medium |
+| N-Queens | LeetCode | Hard |
+| Word Search | LeetCode | Medium |
+| Combination Sum | LeetCode | Medium |
+| Palindrome Partitioning | LeetCode | Medium |
+| Sudoku Solver | LeetCode | Hard |
+| Generate Parentheses | LeetCode | Medium |
+| Crossword Puzzle | HackerRank | Hard |
+| Recursive Digit Sum | HackerRank | Easy |
+| The Power Sum | HackerRank | Medium |
+| Sansa and XOR | HackerRank | Easy |
+
+### Dynamic Programming
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Coin Change | LeetCode | Medium |
+| Longest Increasing Subsequence | LeetCode | Medium |
+| Edit Distance | LeetCode | Hard |
+| Climbing Stairs | LeetCode | Easy |
+| House Robber | LeetCode | Medium |
+| Word Break | LeetCode | Medium |
+| Unique Paths | LeetCode | Medium |
+| Longest Palindromic Substring | LeetCode | Medium |
+| Partition Equal Subset Sum | LeetCode | Medium |
+| The Coin Change Problem | HackerRank | Medium |
+| Sam's Puzzle (Max Array Sum family) | HackerRank | Medium |
+| Max Array Sum | HackerRank | Medium |
+| Candies | HackerRank | Medium |
+| Fibonacci Modified | HackerRank | Medium |
+
+### Greedy
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Jump Game | LeetCode | Medium |
+| Jump Game II | LeetCode | Medium |
+| Gas Station | LeetCode | Medium |
+| Non-overlapping Intervals | LeetCode | Medium |
+| Minimum Number of Arrows to Burst Balloons | LeetCode | Medium |
+| Best Time to Buy and Sell Stock II | LeetCode | Medium |
+| Greedy Florist | HackerRank | Medium |
+| Luck Balance | HackerRank | Easy |
+| Minimum Absolute Difference in an Array | HackerRank | Easy |
+| Priyanka and Toys | HackerRank | Easy |
+
+### Intervals
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Merge Intervals | LeetCode | Medium |
+| Insert Interval | LeetCode | Medium |
+| Meeting Rooms II | LeetCode | Medium |
+| Non-overlapping Intervals | LeetCode | Medium |
+| My Calendar I | LeetCode | Medium |
+| Crush (interval update variant) | HackerRank | Medium |
+
+### Trie
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Implement Trie (Prefix Tree) | LeetCode | Medium |
+| Word Search II | LeetCode | Hard |
+| Design Add and Search Words Data Structure | LeetCode | Medium |
+| Replace Words | LeetCode | Medium |
+| Longest Word in Dictionary | LeetCode | Medium |
+| Contacts | HackerRank | Medium |
+| No Prefix Set | HackerRank | Medium |
+
+### Bit Manipulation
+| Problem | Platform | Difficulty |
+|---|---|---|
+| Single Number | LeetCode | Easy |
+| Counting Bits | LeetCode | Easy |
+| Sum of Two Integers | LeetCode | Medium |
+| Number of 1 Bits | LeetCode | Easy |
+| Power of Two | LeetCode | Easy |
+| Missing Number | LeetCode | Easy |
+| Reverse Bits | LeetCode | Easy |
+| Lonely Integer | HackerRank | Easy |
+| Flipping Bits | HackerRank | Easy |
+| Maximum XOR of Two Numbers in an Array | HackerRank | Medium |
+| AND Product | HackerRank | Medium |
 
 ---
 

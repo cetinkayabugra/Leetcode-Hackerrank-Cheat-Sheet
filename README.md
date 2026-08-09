@@ -7,8 +7,19 @@ LeetCode and HackerRank. Every pattern includes: **when to use it**, a **Python 
 > Tip: most interview/contest problems are a recognizable pattern in disguise. Learn to
 > spot the signal (see "Recognize it by" in each section) instead of memorizing solutions.
 
+## Difficulty Legend
+
+Used throughout the [Curated Problem List](#curated-problem-list-by-pattern) below, matching each platform's own rating:
+
+| Badge | Meaning |
+|---|---|
+| 🟢 **Easy** | Warm-up / pattern recognition, minimal edge cases |
+| 🟡 **Medium** | Typical interview bar, requires combining 1-2 ideas |
+| 🔴 **Hard** | Multiple techniques, tricky edge cases, or non-obvious optimization |
+
 ## Table of Contents
 
+- [Difficulty Legend](#difficulty-legend)
 - [Big-O Quick Reference](#big-o-quick-reference)
 - [Data Structure Complexity Cheat Sheet](#data-structure-complexity-cheat-sheet)
 - [Patterns](#patterns)

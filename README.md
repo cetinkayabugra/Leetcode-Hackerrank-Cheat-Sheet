@@ -544,26 +544,26 @@ Sum of Two Integers (no + operator), Subsets via bitmask.
 
 | Pattern | LeetCode | HackerRank |
 |---|---|---|
-| Two Pointers | Two Sum II, 3Sum, Container With Most Water | Sherlock and Array, Pairs |
-| Sliding Window | Longest Substring Without Repeating Characters, Minimum Window Substring | Substring Diff, Max Subarray Sum |
-| Fast & Slow Pointers | Linked List Cycle, Middle of Linked List | Cycle Detection |
-| Binary Search | Search in Rotated Sorted Array, Koko Eating Bananas | Ice Cream Parlor, Missing Numbers |
-| Prefix Sum | Subarray Sum Equals K, Product of Array Except Self | Cumulative Array Sum, Sales by Match |
-| Hashing | Two Sum, Group Anagrams, Top K Frequent Elements | Two Strings, Frequency Queries |
-| Stack / Monotonic Stack | Valid Parentheses, Daily Temperatures | Balanced Brackets, Equal Stacks |
-| Linked List | Reverse Linked List, Reverse Nodes in k-Group | Reverse a Linked List, Insert a Node |
-| Trees DFS/BFS | Level Order Traversal, Diameter of Binary Tree | Tree: Height, Level-Order Traversal |
-| BST | Validate BST, Kth Smallest in BST | Binary Search Tree Insertion |
-| Graphs | Number of Islands, Course Schedule, Word Ladder | BFS: Shortest Reach, Roads and Libraries |
-| Topological Sort | Course Schedule II, Alien Dictionary | Topological Sort variants |
-| Union-Find | Number of Provinces, Redundant Connection | Merging Communities, Journey to the Moon |
-| Heap | Kth Largest Element, Merge K Sorted Lists, Task Scheduler | Find the Running Median, Jesse and Cookies |
-| Backtracking | Subsets, Permutations, N-Queens, Word Search | Crossword Puzzle, Recursive Digit Sum |
-| Dynamic Programming | Coin Change, LIS, Edit Distance, Knapsack | The Coin Change Problem, Sam's Puzzle |
-| Greedy | Jump Game, Gas Station, Non-overlapping Intervals | Greedy Florist, Luck Balance |
-| Intervals | Merge Intervals, Meeting Rooms II | - |
-| Trie | Implement Trie, Word Search II | Contacts, No Prefix Set |
-| Bit Manipulation | Single Number, Counting Bits, Sum of Two Integers | Lonely Integer, Flipping Bits |
+| Two Pointers | Two Sum II, 3Sum, 4Sum, Container With Most Water, Trapping Rain Water, Sort Colors, Remove Duplicates from Sorted Array, Valid Palindrome | Sherlock and Array, Pairs, Sock Merchant, ANAGRAM |
+| Sliding Window | Longest Substring Without Repeating Characters, Minimum Window Substring, Longest Repeating Character Replacement, Permutation in String, Sliding Window Maximum, Fruit Into Baskets | Substring Diff, Max Subarray Sum, Highest Value Palindrome, Maximum Subarray Sum Circular |
+| Fast & Slow Pointers | Linked List Cycle, Linked List Cycle II, Middle of the Linked List, Happy Number, Find the Duplicate Number, Palindrome Linked List | Cycle Detection, Print in Reverse |
+| Binary Search | Search in Rotated Sorted Array, Koko Eating Bananas, Find Minimum in Rotated Sorted Array, Median of Two Sorted Arrays, Search a 2D Matrix, Split Array Largest Sum, Capacity To Ship Packages | Ice Cream Parlor, Missing Numbers, Pairs, Climbing the Leaderboard |
+| Prefix Sum | Subarray Sum Equals K, Product of Array Except Self, Range Sum Query - Immutable, Continuous Subarray Sum, Maximum Size Subarray Sum Equals k | Cumulative Array Sum, Sales by Match, Circular Array Rotation |
+| Hashing | Two Sum, Group Anagrams, Top K Frequent Elements, Longest Consecutive Sequence, Valid Anagram, Subarray Sum Equals K, Contains Duplicate II | Two Strings, Frequency Queries, Sherlock and Anagrams, Ransom Note |
+| Stack / Monotonic Stack | Valid Parentheses, Daily Temperatures, Largest Rectangle in Histogram, Min Stack, Next Greater Element I/II, Evaluate Reverse Polish Notation, Basic Calculator | Balanced Brackets, Equal Stacks, Maximum Element, Game of Two Stacks |
+| Linked List | Reverse Linked List, Reverse Linked List II, Reverse Nodes in k-Group, Merge Two Sorted Lists, Add Two Numbers, Copy List with Random Pointer, LRU Cache | Reverse a Linked List, Insert a Node, Merge Two Sorted Linked Lists, Delete Duplicate-Value Nodes |
+| Trees DFS/BFS | Level Order Traversal, Diameter of Binary Tree, Maximum Depth of Binary Tree, Path Sum II, Binary Tree Right Side View, Lowest Common Ancestor, Serialize/Deserialize Binary Tree | Tree: Height, Level-Order Traversal, Tree: Top View, Balanced Forest |
+| BST | Validate BST, Kth Smallest in BST, Insert into a BST, Delete Node in a BST, Convert Sorted Array to BST, Recover Binary Search Tree | Binary Search Tree Insertion, Tree: Huffman Decoding, Self Balancing Tree |
+| Graphs | Number of Islands, Course Schedule, Word Ladder, Clone Graph, Rotting Oranges, Pacific Atlantic Water Flow, Number of Connected Components | BFS: Shortest Reach, Roads and Libraries, Dijkstra: Shortest Reach 2, Even Tree |
+| Topological Sort | Course Schedule II, Alien Dictionary, Sequence Reconstruction, Minimum Height Trees, Parallel Courses | Topological Sort variants, Job Sequencing |
+| Union-Find | Number of Provinces, Redundant Connection, Accounts Merge, Number of Islands II, Graph Valid Tree, Satisfiability of Equality Equations | Merging Communities, Journey to the Moon, Components in a graph |
+| Heap | Kth Largest Element, Merge K Sorted Lists, Task Scheduler, Find Median from Data Stream, Top K Frequent Elements, K Closest Points to Origin | Find the Running Median, Jesse and Cookies, QHEAP1, Almost Sorted |
+| Backtracking | Subsets, Permutations, N-Queens, Word Search, Combination Sum, Palindrome Partitioning, Sudoku Solver, Generate Parentheses | Crossword Puzzle, Recursive Digit Sum, The Power Sum, Sansa and XOR |
+| Dynamic Programming | Coin Change, Longest Increasing Subsequence, Edit Distance, 0/1 Knapsack, Climbing Stairs, House Robber, Word Break, Unique Paths, Longest Palindromic Substring, Partition Equal Subset Sum | The Coin Change Problem, Sam's Puzzle, Max Array Sum, Candies, Fibonacci Modified |
+| Greedy | Jump Game, Jump Game II, Gas Station, Non-overlapping Intervals, Minimum Number of Arrows to Burst Balloons, Best Time to Buy and Sell Stock II | Greedy Florist, Luck Balance, Minimum Absolute Difference in an Array, Priyanka and Toys |
+| Intervals | Merge Intervals, Insert Interval, Meeting Rooms II, Non-overlapping Intervals, My Calendar I | Crush (interval update variant) |
+| Trie | Implement Trie, Word Search II, Design Add and Search Words, Replace Words, Longest Word in Dictionary | Contacts, No Prefix Set |
+| Bit Manipulation | Single Number, Counting Bits, Sum of Two Integers, Number of 1 Bits, Power of Two, Missing Number, Reverse Bits | Lonely Integer, Flipping Bits, Maximum XOR of Two Numbers in an Array, AND Product |
 
 ---
 
